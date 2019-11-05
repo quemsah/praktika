@@ -1,0 +1,51 @@
+.university-lp {
+  .navbar {
+    background-color: #1C2A48;
+
+    @media (max-width: 768px) {
+      &:not(.top-nav-collapse) {
+        background: #1C2A48;
+      }
+    }
+  }
+
+  .page-footer {
+    background-color: red;
+  }
+
+  .display-3 {
+    @media (max-width: 450px) {
+      font-size: 3rem;
+    }
+  }
+
+  .background-r {
+    background-color: #f6f6fc;
+  }
+
+  .md-pills {
+    &.pills-primary {
+      .nav-item {
+        .nav-link {
+          &.active {
+            background-color: #33b5e5;
+          }
+        }
+      }
+    }
+  }
+
+  .fa-2x {
+    margin-bottom: 0.6rem;
+  }
+
+  p {
+    line-height: 1.7rem;
+  }
+
+  .font-small {
+    font-size: 0.85rem;
+  }
+}
+
+
